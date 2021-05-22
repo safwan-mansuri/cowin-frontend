@@ -45,6 +45,7 @@ const CowinEntry = () => {
 
   const headerStyle = {
     textAlign: 'center',
+    color: 'white'
   }
 
   const inputStyle = {
