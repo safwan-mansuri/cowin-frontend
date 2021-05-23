@@ -27,7 +27,7 @@ const CowinEntry = () => {
   }
 
   const submit = async () => {
-      const url = 'http://localhost:5000/';
+      const url = 'https://cowin-backendd.herokuapp.com/';
       const body = {
         pinCode: pinCode.current.value
       }
