@@ -27,7 +27,7 @@ const CowinEntry = () => {
   }
 
   const submit = async () => {
-      const url = '//d05dfaf6600f.ngrok.io/';
+      const url = 'http://cowin-env.eba-vc3ppuev.ap-south-1.elasticbeanstalk.com/';
       const body = {
         pinCode: pinCode.current.value
       }
