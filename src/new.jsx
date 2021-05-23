@@ -27,7 +27,7 @@ const CowinEntry = () => {
   }
 
   const submit = async () => {
-      const url = 'http://d05dfaf6600f.ngrok.io/';
+      const url = '//d05dfaf6600f.ngrok.io/';
       const body = {
         pinCode: pinCode.current.value
       }
